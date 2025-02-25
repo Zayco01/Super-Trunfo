@@ -19,54 +19,54 @@ int main() {
 
     printf("Digite a primeira letra do estado da carta 1: ");
     scanf("%s", estado1);
-    printf("Digite o cÛdigo da carta 1: ");
+    printf("Digite o c√≥digo da carta 1: ");
     scanf("%s", codigo1);
     printf("Digite a cidade da carta 1: ");
     scanf("%s", cidade1);
-    printf("Digite a populaÁ„o da carta 1: ");
+    printf("Digite a popula√ß√£o da carta 1: ");
     scanf("%d", &populacao1);
-    printf("Digite a ·rea da carta 1: ");
+    printf("Digite a √°rea da carta 1: ");
     scanf("%f", &area1);
     printf("Digite o PIB da carta 1: ");
     scanf("%f", &pib1);
-    printf("Digite o n˙mero de pontos turÌsticos da carta 1: ");
+    printf("Digite o n√∫mero de pontos tur√≠sticos da carta 1: ");
     scanf("%d", &turismo1);
 
     printf("Digite a primeira letra do estado da carta 2: ");
     scanf("%s", estado2);
-    printf("Digite o cÛdigo da carta 2: ");
+    printf("Digite o c√≥digo da carta 2: ");
     scanf("%s", codigo2);
     printf("Digite a cidade da carta 2: ");
     scanf("%s", cidade2);
-    printf("Digite a populaÁ„o da carta 2: ");
+    printf("Digite a popula√ß√£o da carta 2: ");
     scanf("%d", &populacao2);
-    printf("Digite a ·rea da carta 2: ");
+    printf("Digite a √°rea da carta 2: ");
     scanf("%f", &area2);
     printf("Digite o PIB da carta 2: ");
     scanf("%f", &pib2);
-    printf("Digite o n˙mero de pontos turÌsticos da carta 2: ");
+    printf("Digite o n√∫mero de pontos tur√≠sticos da carta 2: ");
     scanf("%d", &turismo2);
 
     printf("\nCarta 1\n");
     printf("Estado: %s\n", estado1);
 
-    printf("CÛdigo: %c%s\n", estado1[0], codigo1);
+    printf("C√≥digo: %c%s\n", estado1[0], codigo1);
 
     printf("Cidade: %s\n", cidade1);
-    printf("PopulaÁ„o: %d\n", populacao1);
-    printf("¡rea: %.2f\n", area1);
+    printf("Popula√ß√£o: %d\n", populacao1);
+    printf("√Årea: %.2f km¬≤\n", area1);
     printf("PIB: %.2f\n", pib1);
-    printf("Pontos turÌsticos: %d\n", turismo1);
+    printf("Pontos tur√≠sticos: %d\n", turismo1);
 
     printf("\nCarta 2\n");
     printf("Estado: %s\n", estado2);
-    printf("CÛdigo: %c%s\n", estado2[0], codigo2);
+    printf("C√≥digo: %c%s\n", estado2[0], codigo2);
 
     printf("Cidade: %s\n", cidade2);
-    printf("PopulaÁ„o: %d\n", populacao2);
-    printf("¡rea: %.2f\n", area2);
+    printf("Popula√ß√£o: %d\n", populacao2);
+    printf("√Årea: %.2f km¬≤\n", area2);
     printf("PIB: %.2f\n", pib2);
-    printf("Pontos turÌsticos: %d\n", turismo2);
+    printf("Pontos tur√≠sticos: %d\n", turismo2);
 
     return 0;
 }
